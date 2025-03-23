@@ -4,7 +4,7 @@ import { gsap } from 'gsap';
 export default defineNuxtPlugin(() => {
   // Wait for DOM to be loaded
   if (typeof window !== 'undefined') {
-    console.log('Three.js plugin initialized');
+    // console.log('Three.js plugin initialized');
     
     setTimeout(() => {
       initThreeJS();
@@ -99,5 +99,5 @@ function initThreeJS() {
     });
   });
   
-  console.log('Three.js scene initialized');
+  // console.log('Three.js scene initialized');
 }
