@@ -39,11 +39,12 @@
         </SwiperSlide>
       </Swiper>
     </div>
-    <a href="" class="flex items-center justify-center">
+    <a href="https://www.fiverr.com/s/yvLREQ6" class="flex items-center justify-center">
       <button
-          class="w-[100%] m-4 md:w-[80%] xl:w-[43%] px-6 py-3 bg-[#0A5EB0] rounded-lg font-medium hover:shadow-lg hover:shadow-cyan-500/20 transition"
+          class="flex justify-center items-center w-[100%] m-4 md:w-[80%] xl:w-[43%] px-6 py-3 bg-[#0A5EB0] rounded-lg font-medium hover:shadow-lg hover:shadow-cyan-500/20 transition"
         >
-          View More Review in Fiverr
+          View More Review in Fiverr 
+          <img data-aos="zoom-out-up" src="../assets/images/fiverr-icon.svg" alt="Profile Image" class="basis-1/6 h-[40px] w-[40px] object-contain rounded-full" />
         </button>
     </a>
     </section>
