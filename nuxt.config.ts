@@ -10,10 +10,11 @@ export default defineNuxtConfig({
   ],
 
   app: {
+    baseURL:"/portfolio/",
     head: {
-      title: 'Modern 3D Portfolio',
+      title: 'Bishal Ghimire',
       meta: [
-        { name: 'description', content: 'A modern 3D portfolio website showcasing creative work and skills' }
+        { name: 'description', content: 'Bishal Ghimire portfolio website showcasing creative work of blockchain and skills' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
