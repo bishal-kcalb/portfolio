@@ -12,10 +12,13 @@
       <ContactSection />
     </main>
     <SiteFooter />
+
   </div>
 </template>
 
 <script setup>
 // Import the ThreeBackground component
 import ThreeBackground from '~/components/ThreeBackground.vue';
+
+
 </script>

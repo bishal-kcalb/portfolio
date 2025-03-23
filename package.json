@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/ui": "^3.0.1",
     "@nuxtjs/tailwindcss": "^6.13.2",
+    "axios": "^1.8.4",
     "gsap": "^3.12.7",
     "nuxt": "^3.16.1",
     "nuxt-aos": "^1.2.5",
