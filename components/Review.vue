@@ -39,9 +39,9 @@
         </SwiperSlide>
       </Swiper>
     </div>
-    <a href="https://www.fiverr.com/s/yvLREQ6" class="flex items-center justify-center">
+    <a href="https://www.fiverr.com/s/yvLREQ6" class="flex items-center justify-center hover:text-[#0A97B0]">
       <button
-          class="flex justify-center items-center w-[100%] m-4 md:w-[80%] xl:w-[43%] px-6 py-3 bg-[#0A5EB0] rounded-lg font-medium hover:shadow-lg hover:shadow-cyan-500/20 transition"
+          class="flex justify-center items-center w-[100%] m-4 md:w-[80%] xl:w-[43%] px-6 py-3 bg-[#0A97B0] rounded-lg hover:text-[#0A5EB0] font-medium hover:shadow-lg hover:shadow-cyan-500/20 transition"
         >
           View More Review in Fiverr 
           <img data-aos="zoom-out-up" src="../assets/images/fiverr-icon.svg" alt="Profile Image" class="basis-1/6 h-[40px] w-[40px] object-contain rounded-full" />
@@ -91,8 +91,8 @@
     },
     {
       name: "cufflabs",
-      comment: "https://fiverr-res.cloudinary.com/image/upload/t_profile_small,q_auto,f_auto/v1/attachments/profile/photo/148948705f1f8631867e3bcca79d10dc-1675487892452/2b955d0c-05f8-4bda-a73d-bd89263a10e5.jpg",
-      avatar: "https://randomuser.me/api/portraits/men/3.jpg",
+      comment: "great communication. Top man for the job. Beautifully done",
+      avatar: "https://fiverr-res.cloudinary.com/image/upload/t_profile_small,q_auto,f_auto/v1/attachments/profile/photo/148948705f1f8631867e3bcca79d10dc-1675487892452/2b955d0c-05f8-4bda-a73d-bd89263a10e5.jpg",
       rating: 5,
     },
   ]);
