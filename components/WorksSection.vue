@@ -41,7 +41,7 @@
   </template>
   
   <script setup>
-  import blockchain from '@/assets/images/Blockchain_Development_1.png';
+  import blockchain from '@/assets/images/Supply_Chain_Using_Blockchain.png';
   import supplychain from '@/assets/images/Blockchain_Development_2.png';
   import staking from '@/assets/images/staking.png'
   import bridge from '@/assets/images/Blockchain_Development.png'
