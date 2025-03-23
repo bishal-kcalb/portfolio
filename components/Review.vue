@@ -37,8 +37,15 @@
               </div>
             </div>
         </SwiperSlide>
-        </Swiper>
-      </div>
+      </Swiper>
+    </div>
+    <a href="" class="flex items-center justify-center">
+      <button
+          class="w-[100%] m-4 md:w-[80%] xl:w-[43%] px-6 py-3 bg-[#0A5EB0] rounded-lg font-medium hover:shadow-lg hover:shadow-cyan-500/20 transition"
+        >
+          View More Review in Fiverr
+        </button>
+    </a>
     </section>
   </template>
   
@@ -60,12 +67,30 @@
     {
       name: "Blockgenesis",
       comment: "The seller is skillful, very fast and responsive. He has a good knowledge of blockchain and is able to complete the job as requested on time. I look forward to working with him again in the near future. Thank you!",
-      avatar: "https://randomuser.me/api/portraits/women/2.jpg",
+      avatar: "https://fiverr-res.cloudinary.com/image/upload/t_profile_small,q_auto,f_auto/v1/attachments/profile/photo/d0b3d769b5479f55847f97f8da4b851d-1708175873481/5a769277-889a-4d05-a443-6ea9bea392aa.png",
       rating: 5,
     },
     {
       name: "Pwashere",
       comment: "Bishal is excellent, amazing communication and an approach to go beyond and deliver the best, I highly recommend him!",
+      avatar: "https://fiverr-res.cloudinary.com/image/upload/t_profile_small,q_auto,f_auto/v1/attachments/profile/photo/c9803680d93d198941f0c716dc6f0272-1589443806882/d371d305-38c1-4f4a-a5d3-1d0a23c52420.jpg",
+      rating: 5,
+    },
+    {
+      name: "sammichael103'",
+      comment: "Exceptional, well done. Will like to work with him again :)",
+      avatar: "https://fiverr-res.cloudinary.com/image/upload/t_profile_small,q_auto,f_auto/v1/profile/photos/63446403/original/photo.jpg",
+      rating: 5,
+    },
+    {
+      name: "prabin04",
+      comment: "Highly recommend. Bishal is always quick and interactive. He always meets the expectations and would definitely buy the service again from him.",
+      avatar: "https://fiverr-res.cloudinary.com/image/upload/t_profile_small,q_auto,f_auto/v1/attachments/profile/photo/f48f0c5f86540f935618c2a1eb78e17b-1618494564741/54f01116-373c-458a-b42a-8e6af2c5d114.JPG",
+      rating: 5,
+    },
+    {
+      name: "cufflabs",
+      comment: "https://fiverr-res.cloudinary.com/image/upload/t_profile_small,q_auto,f_auto/v1/attachments/profile/photo/148948705f1f8631867e3bcca79d10dc-1675487892452/2b955d0c-05f8-4bda-a73d-bd89263a10e5.jpg",
       avatar: "https://randomuser.me/api/portraits/men/3.jpg",
       rating: 5,
     },

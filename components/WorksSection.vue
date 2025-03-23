@@ -9,7 +9,7 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
           <div data-aos="zoom-in-up" v-for="(project, index) in projects" :key="index" 
                class="group  bg-[#1e1e1e] p-8 border-cyan-300/10 rounded-xl overflow-hidden hover:shadow-xl hover:shadow-cyan-500/10 transition-all duration-300 transform hover:-translate-y-2">
-            <div class="rounded-xl overflow-hidden">
+            <div class="rounded-xl overflow-hidden flex justify-center">
               <img data-aos="" :src="project.url" :alt="project.title" class="min-h-[300px] object-fill transition-transform duration-500 group-hover:scale-110" />
               <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent opacity-70 z-[-1]"></div>
             </div>
