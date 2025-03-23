@@ -210,6 +210,10 @@ const sendMail = async () => {
   try{
     openModal.value = true
     const data = await axios.post("https://mailsender-rho.vercel.app/send-email", formData);
+    name.value = ''
+    email.value = ''
+    subject.value = ''
+    message.value = ''
     openModal.value = false
     toast.success("Message sent successfully!!! \nThank you for contacting...",{
       position:'bottom-right',
@@ -217,6 +221,11 @@ const sendMail = async () => {
   }
   catch(e){
     console.log(e)
+    name.value = ''
+    email.value = ''
+    subject.value = ''
+    message.value = ''
+    openModal.value = false
     toast.error("Message sent Failed!!!",{
       position:'bottom-right',
 
