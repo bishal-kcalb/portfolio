@@ -41,10 +41,10 @@
   </template>
   
   <script setup>
-  import blockchain from '@/assets/images/blockchain.avif';
-  import supplychain from '@/assets/images/supplychain.avif';
+  import blockchain from '@/assets/images/Blockchain_Development_1.png';
+  import supplychain from '@/assets/images/Blockchain_Development_2.png';
   import staking from '@/assets/images/staking.png'
-  import bridge from '@/assets/images/bridge.png'
+  import bridge from '@/assets/images/Blockchain_Development.png'
   const projects = [
     {
       title: "Blockchain Development",

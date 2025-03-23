@@ -13,9 +13,9 @@
           :autoplay="{ delay: 5000 }"
           class="max-w-3xl mx-auto"
         >
-          <SwiperSlide v-for="(review, index) in reviews" :key="index">
-            <div class="bg-[#1e1e1e] rounded-2xl p-6 shadow-xl text-center">
-              <div data-aos="zoom-in-right" class="mb-4">
+          <SwiperSlide v-for="(review, index) in reviews" :key="index" class ='mb-8'>
+            <div class="bg-[#1e1e1e] rounded-2xl p-6 shadow-xl text-center text-white">
+              <div data-aos="zoom-in-right" class="mb-8">
                 <img :src="review.avatar" alt="Client photo" class="w-16 h-16 rounded-full mx-auto" />
               </div>
               <p class="text-lg text-gray-300 mb-2">"{{ review.comment }}"</p>
@@ -36,7 +36,7 @@
                 </span>
               </div>
             </div>
-          </SwiperSlide>
+        </SwiperSlide>
         </Swiper>
       </div>
     </section>
@@ -73,8 +73,14 @@
   </script>
   
   <style scoped>
-  .swiper-pagination-bullet {
-    background: #0a97b0 !important;
-  }
+ ::v-deep(.swiper-pagination-bullet) {
+  background: #0A97B0 !important; /* Change to your desired color */
+  opacity: 1;
+}
+
+  ::v-deep(.swiper-pagination-bullet-active) {
+  background: #FFCFEF !important; /* Change to your active color */
+}
+
   </style>
   
