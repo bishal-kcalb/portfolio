@@ -1,7 +1,8 @@
 <template>
   <section id="home" class="relative min-h-screen flex items-center pt-16">
-    <div class="absolute inset-0 z-0"></div>
-    <div data-aos="zoom-in-right" class="container mx-auto px-4 z-10 relative bg-[#1e1e1e] p-[42px] rounded-2xl">
+    <!-- <div class="absolute inset-0 z-0"></div> -->
+    <div data-aos="zoom-in-right" class="container mx-auto px-4 z-10 relative bg-[#1e1e1e] p-[42px] rounded-2xl flex flex-col md:flex-row items-center justify-between md:px-[118px]">
+      <div class="absolute pt-20 container z-[-2] rounded-2xl mx-auto px-4 inset-0 bg-gradient-to-t from-slate-900 via-transparent opacity-70"></div>
       <div class="max-w-3xl">
         <h1 class="text-4xl md:text-6xl font-bold mb-6">
           <span class="block">Hi, I'm</span>
@@ -20,7 +21,11 @@
           </a>
         </div>
       </div>
+      <div>
+        <img src="../assets/images/dev.png" alt="" srcset="" class="h-[500px] pb-[70px]">
+      </div>
     </div>
+
   </section>
 </template>
 
